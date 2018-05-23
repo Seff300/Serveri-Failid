@@ -17,7 +17,7 @@
   '7':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&e&lTeade > &7Pidage meeles &9igapäevaselt &7serveri poolt hääletada!'
+    - '&e&lTeade > &7Pidage meeles &eigapäevaselt &7serveri poolt hääletada!'
   '8':
     SHOWMODE: ALLSERVERS
     LINES:
