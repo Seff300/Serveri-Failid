@@ -128,10 +128,10 @@ defaultPing: 1000
 # Here the content of the tab list is configured:
 components:
 # Three info slots at the top
-- {text: "&e&lSeff&6&lCraft", icon: "default/server.png", ping: 0} # 1st row, 1st column
-- {text: "&7Rank &f&l> &a&l${viewer vault_primary_group}", icon: "default/rank.png", ping: 0} # 1st row, 2nd column
+- {text: "&c&lSeff&cCraft", icon: "default/server.png", ping: 0} # 1st row, 1st column
+- {text: "&cRank &f&l> &8${viewer vault_primary_group}", icon: "Default/rank.png", ping: 0} # 1st row, 2nd column
 # Show ping in different colors depending on how good/ bad it is
-- {text: "&7Ping &f&l> ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
+- {text: "&cPing &f&l> ${viewer_colored_ping}ms", icon: "default/ping.png", ping: 0} # 1st row, 3rd column
 # A row of empty slots below
 - {text: "", icon: "colors/dark_gray.png", ping: 1000} # 2nd row, 1st column
 - {text: ""} # 2nd row, 2nd column; Since icon and ping are the default they don't need to be specified explicitely.
@@ -167,57 +167,75 @@ components:
 - !animated # 19th row, 1st column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
+  - {text: "&f&c=&f====================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=&c=&f===================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==&c=&f==================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===&c=&f=================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====&c=&f================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=====&c=&f===============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f======&c=&f==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=======&c=&f=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f========&c=&f============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=========&c=&f===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==========&c=&f==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===========&c=&f=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f============&c=&f========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=============&c=&f=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==============&c=&f======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===============&c=&f=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f================&c=&f====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=================&c=&f===", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==================&c=&f==", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===================&c=&f=", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====================&c=&f", icon: "colors/gold.png", ping: 0}
 - !animated # 19th row, 2nd column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
+  - {text: "&f&c=&f====================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=&c=&f===================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==&c=&f==================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===&c=&f=================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====&c=&f================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=====&c=&f===============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f======&c=&f==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=======&c=&f=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f========&c=&f============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=========&c=&f===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==========&c=&f==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===========&c=&f=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f============&c=&f========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=============&c=&f=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==============&c=&f======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===============&c=&f=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f================&c=&f====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=================&c=&f===", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==================&c=&f==", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===================&c=&f=", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====================&c=&f", icon: "colors/gold.png", ping: 0}
 - !animated # 19th row, 3rd column
   interval: 0.2
   components:
-  - {text: "&6&c=&6==============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=&c=&6=============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==&c=&6============", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===&c=&6===========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6====&c=&6==========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=====&c=&6=========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6======&c=&6========", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=======&c=&6=======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6========&c=&6======", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=========&c=&6=====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==========&c=&6====", icon: "colors/gold.png", ping: 0}
-  - {text: "&6===========&c=&6===", icon: "colors/gold.png", ping: 0}
-  - {text: "&6============&c=&6==", icon: "colors/gold.png", ping: 0}
-  - {text: "&6=============&c=&6=", icon: "colors/gold.png", ping: 0}
-  - {text: "&6==============&c=&6", icon: "colors/gold.png", ping: 0}
-- {text: "&7Kell &f&l> &9${time H:mm:ss}", icon: "default/clock.png", ping: 0} # 20th row, 1st column
-- {text: "&7Mängijaid &f&l> &9${playerset:global size}", icon: "default/players.png", ping: 0} # 20th row, 2nd column
-- {text: "&7Versioon &f&l> &91.12.2 ", icon: "default/balance.png", ping: 0} # 20th row, 3rd column
+  - {text: "&f&c=&f====================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=&c=&f===================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==&c=&f==================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===&c=&f=================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====&c=&f================", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=====&c=&f===============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f======&c=&f==============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=======&c=&f=============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f========&c=&f============", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=========&c=&f===========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==========&c=&f==========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===========&c=&f=========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f============&c=&f========", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=============&c=&f=======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==============&c=&f======", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===============&c=&f=====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f================&c=&f====", icon: "colors/gold.png", ping: 0}
+  - {text: "&f=================&c=&f===", icon: "colors/gold.png", ping: 0}
+  - {text: "&f==================&c=&f==", icon: "colors/gold.png", ping: 0}
+  - {text: "&f===================&c=&f=", icon: "colors/gold.png", ping: 0}
+  - {text: "&f====================&c=&f", icon: "colors/gold.png", ping: 0}
+- {text: "&CKell &f&l> &8${time H:mm:ss}", icon: "default/clock.png", ping: 0} # 20th row, 1st column
+- {text: "&cMängijaid &f&l> &8${playerset:global size}", icon: "default/players.png", ping: 0} # 20th row, 2nd column
+- {text: "&cVersioon &f&l> &81.12.2 ", icon: "default/balance.png", ping: 0} # 20th row, 3rd column
