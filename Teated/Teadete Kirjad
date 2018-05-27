@@ -5,28 +5,28 @@
   '4':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cServeri &8foorum &cfoorum.seffcraft.eu&8!'
+    - '&c&lTeade &8&l> &fServeri foorum on &7foorum.seffcraft.eu&f.'
   '5':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cServeri &8meeskonda kandideerimine &c&lAVATUD&8! '
+    - '&c&lTeade &8&l> &fServeri meeskonda kandideerimine &7avatud&f.'
   '6':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cVigade &8leidmise korral palume teavitada &c&lmeeskonda&8!'  
+    - '&c&lTeade &8&l> &fLeidsite vea? Teavitage koheselt &7meeskonda&f.'  
   '7':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cPidage &8meeles serveri poolt igapäevaselt &c&lhääletada&8!'
+    - '&c&lTeade &8&l> &fHääleta meie serveri poolt igapäevaselt.'
   '8':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cErinevatesse &8serveritesse saate rännata käsuga &c/server&8!'
+    - '&c&lTeade &8&l> Erinevates serverites saab ringi rännata käsuga &7/server&f.'
   '9':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cIgapäevase &8preemia saate käsuga &c/pulk&8!'
+    - '&c&lTeade &8&l> &fIgapäevase preemia saate käsuga &7/pulk&f.'
   '10':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &cKasutades /teenused &8saate endale soetada tasulise &cseisuse&8!'
+    - '&c&lTeade &8&l> &fSoovid mängida privileegi? Kasuta &7/teenused&f.'
