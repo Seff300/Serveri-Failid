@@ -21,7 +21,7 @@
   '8':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> Erinevates serverites saab ringi rännata käsuga &7/server&f.'
+    - '&c&lTeade &8&l> &fErinevates serverites saab ringi rännata käsuga &7/server&f.'
   '9':
     SHOWMODE: ALLSERVERS
     LINES:
@@ -30,3 +30,8 @@
     SHOWMODE: ALLSERVERS
     LINES:
     - '&c&lTeade &8&l> &fSoovid mängida privileegi? Kasuta &7/teenused&f.'
+  '11':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&c&lTeade &8&l> &f1. Juuni läheb server &7suvepuhkusele&f.'
+
