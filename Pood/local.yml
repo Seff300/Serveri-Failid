@@ -1,0 +1,54 @@
+prefix: "§6§lPood &e> §r"
+iteminfo: "§7Eseme info: §9"
+
+ACCESS_DENIED: "§cSul pole selleks piisavalt õigusi."
+
+NOT_ENOUGH_MONEY: "§7Teil &cpole &7piisavalt raha!"
+NOT_ENOUGH_MONEY_SHOP: "§7Poe omanikul &Cpole piisavalt raha!"
+
+CLIENT_DEPOSIT_FAILED: "Money deposit to your account failed!"
+SHOP_DEPOSIT_FAILED: "Money deposit to shop owner failed!"
+
+NO_BUYING_HERE: "&7Sa &cei &7saa siin osta!"
+NO_SELLING_HERE: "&7Sa &cei &7saa siin müüa!"
+
+NOT_ENOUGH_SPACE_IN_INVENTORY: "&7Su kotis &cpole &7piisavalt vaba ruumi!"
+NOT_ENOUGH_SPACE_IN_CHEST: "&7Kirstus &cpole &7piisavalt vaba ruumi!"
+NOT_ENOUGH_ITEMS_TO_SELL: "&7Sul &cpole &7piisavalt palju esemeid, et müüa!"
+
+NOT_ENOUGH_STOCK: "&7See pood on &ctühjaks &7ostetud."
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: "&7Su poest on ese &e%material &7otsa saanud!"
+
+YOU_BOUGHT_FROM_SHOP: "&7Sa ostsid eseme &e%item &7mängijalt &9%owner &7hinnaga &9%price&7."
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: "&7Mängija &e%buyer &7ostis sinult eseme &9%item &7hinnaga &9%price&7."
+
+YOU_SOLD_TO_SHOP: "&7Sa müüsid eseme &e%item mängijale &9%buyer hinnaga &9%price&7."
+SOMEBODY_SOLD_TO_YOUR_SHOP: "&7Mängija &e%seller &7müüs sulle eseme &9%item &7hinnaga &9%price&7."
+
+YOU_CANNOT_CREATE_SHOP: "&7Sul &cpole &7selleks piisavalt õigusi."
+NO_CHEST_DETECTED: "§7Kirstu &cei &7leitud!"
+INVALID_SHOP_DETECTED: "&7See pood &cpole &7korrektselt tehtud!"
+CANNOT_ACCESS_THE_CHEST: "§cSul pole selleks piisavalt õigusi."
+
+PROTECTED_SHOP: "Successfully protected the shop with LWC!"
+SHOP_CREATED: "§aPood edukalt loodud!"
+SHOP_FEE_PAID: "You have been charged %amount"
+SHOP_REFUNDED: "You have been refunded %amount."
+ITEM_GIVEN: "Given %item to %player."
+
+RESTRICTED_SIGN_CREATED: "§aSilt edukalt loodud!"
+
+PLAYER_NOT_FOUND: "§cSellist mängijat ei leitud!"
+NO_PERMISSION: "§cSul pole selleks piisavalt õigusi."
+INCORRECT_ITEM_ID: "§cSa oled sisestanud ebakorrektse eseme ID!"
+NOT_ENOUGH_PROTECTIONS: "Could not create a protection!"
+
+CANNOT_CREATE_SHOP_HERE: "§cSa ei saa siia poodi luua!"
+
+TOGGLE_MESSAGES_OFF: "§eSa ei saa enam oma poodidest teateid."
+TOGGLE_MESSAGES_ON: "§eSa saad nüüd jälle oma poodidest teateid."
+
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "%material&7 shop at &r%world/%x/%y/%z&7 is full! (%seller tried to sell)"
+
+CLICK_TO_AUTOFILL_ITEM: "Click the sign with the item that this shop is for!"
+NO_ITEM_IN_HAND: "You don't have an item in your hand to autofill!"
