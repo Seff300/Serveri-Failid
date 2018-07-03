@@ -1,37 +1,20 @@
-  '3':
+  '1':
     SHOWMODE: ALLSERVERS
     LINES:
     - '[{"text":"Discord","color":"red","underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/rkTykpd/"}}]'
+  '2':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&8[&fTeadeanne&8] &fHääletades teenid häid auhindu. &7vote&f.'
+  '3':
+    SHOWMODE: ALLSERVERS
+    LINES:
+    - '&8[&fTeadeanne&8] &fProovi erinevaid mängumoode käsuga &7/server&f.'
   '4':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &fServeri foorum on &7foorum.seffcraft.eu&f.'
+    - '&8[&fTeadeanne&8] &fIgapäevase preemia saate käsuga &7/pulk&f.'
   '5':
     SHOWMODE: ALLSERVERS
     LINES:
-    - '&c&lTeade &8&l> &fServeri meeskonda kandideerimine &7avatud&f.'
-  '6':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &fLeidsite vea? Teavitage koheselt &7meeskonda&f.'  
-  '7':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &fHääleta meie serveri poolt igapäevaselt.'
-  '8':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &fErinevates serverites saab ringi rännata käsuga &7/server&f.'
-  '9':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &fIgapäevase preemia saate käsuga &7/pulk&f.'
-  '10':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &fSoovid mängida privileegi? Kasuta &7/teenused&f.'
-  '11':
-    SHOWMODE: ALLSERVERS
-    LINES:
-    - '&c&lTeade &8&l> &f1. Juuni läheb server &7suvepuhkusele&f.'
-
+    - '&8[&fTeadeanne&8] &fSoovid mõnda privileegi? Tellimiseks kasuta &7/teenused&f.'
