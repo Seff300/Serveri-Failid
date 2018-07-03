@@ -5,7 +5,7 @@
   # Can add titles and more in the reward file
   Rewards:
     Messages:
-      Player: '&e&lHEY! &7Me näeme, et te pole täna serveri poolt hääletanud. Te saate teha seda käsklusega &9/vote&7 et saada häid auhindu!'
+      Player: '&8[&f✦&8] &fHei seikleja! &fNäeme, et te pole täna hääletanud meie serveri poolt. Kasutades &7/vote &fvõid võita erinevaid auhindu.'
 
   # Broadcast vote message
-  BroadcastMsg: '&6&lHääletamine > &c&lAitäh &a&l%player% &7hääletamast lehel &a&l%SiteName%'
+  BroadcastMsg: '&8[&f✦&8] &fHääletamine &7> &fAitäh &7%player% &fhääletamast meie serveri poolt.'
