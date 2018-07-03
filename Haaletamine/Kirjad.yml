@@ -1,0 +1,8 @@
+  # Run reward files on remind (Meeldetuletus)
+  # By default, the reward file will be created for you
+  # and have the default message
+  # Edit the message at AdvancedCore/Rewards/Remind.yml (or any other reward listed)
+  # Can add titles and more in the reward file
+  Rewards:
+    Messages:
+      Player: '&e&lHEY! &7Me näeme, et te pole täna serveri poolt hääletanud. Te saate teha seda käsklusega &9/vote&7 et saada häid auhindu!'
