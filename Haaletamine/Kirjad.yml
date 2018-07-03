@@ -6,3 +6,6 @@
   Rewards:
     Messages:
       Player: '&e&lHEY! &7Me näeme, et te pole täna serveri poolt hääletanud. Te saate teha seda käsklusega &9/vote&7 et saada häid auhindu!'
+
+  # Broadcast vote message
+  BroadcastMsg: '&6&lHääletamine > &c&lAitäh &a&l%player% &7hääletamast lehel &a&l%SiteName%'
